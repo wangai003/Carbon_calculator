@@ -5,10 +5,10 @@ import streamlit as st
 # Define emission factors (example values, replace with accurate data)
 EMISSION_FACTORS = {
     "Kenya": {
-        "Transportation": 0.56,  # kgCO2/km
-        "Electricity": 0.92,  # kgCO2/kWh
-        "Diet": 2.25,  # kgCO2/meal, 2.5kgco2/kg
-        "Waste": 0.1  # kgCO2/kg
+        "Transportation": 0.2,  # kgCO2/km
+        "Electricity": 0.1,  # kgCO2/kWh
+        "Diet": 6.5,  # kgCO2/meal, 2.5kgco2/kg
+        "Waste": 0.6 , # kgCO2/kg
     }
 }
 
